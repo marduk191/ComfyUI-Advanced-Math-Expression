@@ -29,7 +29,7 @@ An advanced math expression node for ComfyUI with support for infinite dynamic e
 
 ### Dynamic Variable Inputs
 - Connect any number of inputs by linking to the input sockets (a, b, c, d, etc.)
-- These appear automatically when you connect from other nodes
+- These can be added from the right click menu
 - Supports INT, FLOAT, and STRING inputs
 
 ### Expression Fields
