@@ -1,6 +1,7 @@
 # ComfyUI Advanced Math Expression Node
 
 An advanced math expression node for ComfyUI with support for infinite dynamic expressions and variable inputs.
+<img width="1370" height="766" alt="image" src="https://github.com/user-attachments/assets/fd0d7311-ba0b-4cd2-8815-84bbcdda9b2f" />
 
 ## Features
 
