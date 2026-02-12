@@ -4,6 +4,14 @@ class ContainsAnyDict(dict):
     def __contains__(self, key):
         return True
 
+    def __getitem__(self, key):
+        # If key exists in the actual dict, return it
+        if dict.__contains__(self, key):
+            return dict.__getitem__(self, key)
+        # Otherwise return a default input type for dynamic variables
+        # This handles inputs like a, b, c, d, etc.
+        return ("INT,FLOAT,STRING", {"forceInput": True})
+
 class AdvancedMathExpressionNode:
     """
     Advanced Math Expression Node with infinite dynamic inputs
